@@ -123,6 +123,7 @@ class LinkedInScraper(Scraper):
         params = self._build_search_params(start, seconds_old)
         query_string = urlencode(params)
         full_url = f"{self.base_url}/jobs-guest/jobs/api/seeMoreJobPostings/search?{query_string}"
+        print(f"LinkedIn search URL: {full_url}")
         try:
             self.logger.debug(f"Getting Linkedin URL: {full_url}")
 

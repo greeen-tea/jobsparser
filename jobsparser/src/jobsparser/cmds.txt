@@ -30,7 +30,7 @@ remote contract jobs (mid-senior level)
      
 remote contract jobs (mid-senior level) (copy of above)
      jobsparser \
-     --search-term 'software engineer NOT("director" OR "staff" OR "lead" OR "intern") NOT("turing" OR "Alignerr" OR "DataAnnotation" OR "Groundswell" OR "Canonical" OR "Nvidia")' \
+     --search-term 'software engineer NOT("director" OR "staff" OR "lead" OR "intern") NOT("turing" OR "Alignerr" OR "DataAnnotation" OR "Groundswell" OR "Canonical" OR "Nvidia" OR "Mercor")' \
      --location "United States" \
      --site linkedin \
      --results-wanted 500 \
@@ -43,7 +43,7 @@ remote contract jobs (mid-senior level) (copy of above)
 
 remote full time jobs (mid-senior level)
      jobsparser \
-     --search-term 'software engineer NOT("director" OR "staff" OR "lead" OR "intern") NOT("turing" OR "Alignerr" OR "DataAnnotation" OR "Groundswell" OR "Canonical" OR "Nvidia")' \
+     --search-term 'software engineer NOT("director" OR "staff" OR "lead" OR "intern") NOT("turing" OR "Alignerr" OR "DataAnnotation" OR "Groundswell" OR "Canonical" OR "Nvidia" OR "Mercor")' \
      --location "United States" \
      --site linkedin \
      --results-wanted 500 \
@@ -56,3 +56,5 @@ remote full time jobs (mid-senior level)
 
 
 =QUERY(F2:F, "select F, count(F) where F is not null group by F label F 'Company', count(F) 'Frequency'", 0)
+
+=REGEXMATCH(D2, "(?i)\bjava\b")

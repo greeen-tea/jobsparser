@@ -30,7 +30,7 @@ remote contract jobs (mid-senior level)
      
 remote contract jobs (mid-senior level) (copy of above)
      jobsparser \
-     --search-term 'software engineer NOT("director" OR "staff" OR "lead" OR "intern") NOT("turing" OR "Alignerr" OR "DataAnnotation" OR "Groundswell" OR "Canonical" OR "Nvidia" OR "Mercor" OR "Oracle" OR "Jobgether" OR "Renaissance" OR "Bright Vision Technologies" OR "Microsoft")' \
+     --search-term 'software engineer NOT("director" OR "staff" OR "lead" OR "intern") NOT("turing" OR "Alignerr" OR "DataAnnotation" OR "Groundswell" OR "Canonical" OR "Nvidia" OR "Mercor" OR "Oracle" OR "Jobgether" OR "Renaissance" OR "Bright Vision Technologies" OR "Microsoft" OR "Veeva" OR "RemoteHunter" OR "hackajob" OR "dice")' \
      --location "United States" \
      --site linkedin \
      --results-wanted 500 \
@@ -39,11 +39,11 @@ remote contract jobs (mid-senior level) (copy of above)
      --hours-old 24 \
      --remote \
      --fetch-description \
-     --linkedin-experience-level "mid_senior"    
+     --linkedin-experience-level "mid_senior_level"
 
 remote full time jobs (mid-senior level)
      jobsparser \
-     --search-term 'software engineer NOT("director" OR "staff" OR "lead" OR "intern") NOT("turing" OR "Alignerr" OR "DataAnnotation" OR "Groundswell" OR "Canonical" OR "Nvidia" OR "Mercor" OR "Oracle" OR "Jobgether" OR "Renaissance" OR "Bright Vision Technologies" OR "Microsoft")' \
+     --search-term 'software engineer NOT("director" OR "staff" OR "lead" OR "intern") NOT("turing" OR "Alignerr" OR "DataAnnotation" OR "Groundswell" OR "Canonical" OR "Nvidia" OR "Mercor" OR "Oracle" OR "Jobgether" OR "Renaissance" OR "Bright Vision Technologies" OR "Microsoft" OR "Veeva" OR "RemoteHunter" OR "hackajob" OR "dice")' \
      --location "United States" \
      --site linkedin \
      --results-wanted 500 \
